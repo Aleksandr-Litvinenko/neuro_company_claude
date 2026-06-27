@@ -1,0 +1,4 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+# Optional — нужен только в боевом режиме (DEMO_MODE=false) для мозгов агентов:
+# anthropic>=0.40
