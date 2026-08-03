@@ -5,7 +5,8 @@
 реальном времени. Ты — **man-in-the-middle**: на твой стол приходит только
 согласование **Проекта + КП**, всё остальное команда делает сама.
 
-Полное описание архитектуры — в [ARCHITECTURE.md](ARCHITECTURE.md).
+Полное описание архитектуры — в [ARCHITECTURE.md](ARCHITECTURE.md),
+описание REST и WebSocket — в [docs/API.md](docs/API.md).
 
 ## Оргконвейер
 
@@ -24,7 +25,8 @@
 ## Быстрый старт
 
 ```bash
-cd /Users/alex/NeuroCompany
+git clone https://github.com/Aleksandr-Litvinenko/neuro_company_claude.git
+cd neuro_company_claude
 ./run.sh
 ```
 
